@@ -56,3 +56,35 @@ body{
     animation: float 4s ease-in-out infinite;
 
 }
+
+/* ===============================
+   TECHNOLOGY CARDS
+================================ */
+
+.tech-card{
+    background: rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:28px 20px;
+    text-align:center;
+    backdrop-filter: blur(12px);
+    transition:.35s ease;
+    cursor:pointer;
+}
+
+.tech-card:hover{
+    transform:translateY(-8px);
+    border-color:#22d3ee;
+    box-shadow:0 0 35px rgba(34,211,238,.25);
+}
+
+.tech-card h3{
+    color:#22d3ee;
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.tech-card p{
+    margin-top:10px;
+    color:#9ca3af;
+}
